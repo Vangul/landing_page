@@ -1,0 +1,25 @@
+.body{
+    background-color: teal;
+}
+.a {
+    background-color: transparent;
+    color:darkslateblue;
+    
+    
+
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    border: solid 5px aliceblue;
+    background-color: darkcyan;
+    gap: 8px;
+    text-decoration: none;
+    align-items:flex-start;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 30px;
+    margin-inline-start: auto;
+    scroll-padding-inline-start: 30px;
+    
+}
