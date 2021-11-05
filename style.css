@@ -2,24 +2,27 @@
     background-color: teal;
 }
 .a {
+    display: flex;
     background-color: transparent;
     color:darkslateblue;
-    
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    flex:auto;
+    text-decoration: none;
 
 }
 .nav{
     display:flex;
-    flex-direction: row;
-    border: solid 5px aliceblue;
+    flex-direction:row;
+    flex: auto;
+    border: 5px dotted navajowhite;
     background-color: darkcyan;
-    gap: 8px;
-    text-decoration: none;
-    align-items:flex-start;
-    justify-content: space-between;
     list-style: none;
-    font-size: 30px;
-    margin-inline-start: auto;
-    scroll-padding-inline-start: 30px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+
     
 }
