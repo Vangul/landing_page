@@ -1,13 +1,8 @@
-
-.body{
+/*.body{
     background-color:#3c3d46;
-}
-.a {
-    
+}*/
+.a {   
     display: flex;
-    /*background-image: url(../landing_page/images/logo.png);
-    background-repeat: space;
-    background-position: bottom;*/
     background-color: transparent;
     color:rgb(255, 255, 255);
     font-family:'Courier New', Courier, monospace;
@@ -33,29 +28,28 @@
     font-size: 24px;
     text-align: start;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
    
    
-   
-    
 }
 
 .nav{
     display:flex;
     width: 100%;
     /*margin: 10px 0px;
-    padding: 0px; 
-    background-image: url(../landing_page/images/water.jpg);*/
+    padding: 0px; */
     background-color: #1f2937;
     list-style: none;
-    justify-content:center;
+    justify-content: space-evenly;
     align-items:center;
-    gap: 100px;
+    /*gap: 100px;*/
     font-size: 24px;
     color: whitesmoke;
    
-
-    
 }
+
 .blog{
     display: flex;
     flex-direction: column;
@@ -67,11 +61,9 @@
     margin: 0px;*/
     /*padding: auto;
     background-image: url(../landing_page/images/water.jpg);
-    background-size: auto;*/
-
-   
-    
+    background-size: auto;*/    
 }
+
 .p1 {
     /*display: flex;*/
     color: #f9fAf8;
@@ -107,7 +99,6 @@
     color: whitesmoke;
     width: 600px;
     height: 215px;
-    justify-content: center;
     margin-bottom: 20px;
     align-content: center;
   
@@ -115,6 +106,9 @@
 }    
 .footer{
     display: flex;
+    color: whitesmoke;
+    height: 60px;
     background-color: #1f2937;
     justify-content: center;
+    align-items: center;
 }
