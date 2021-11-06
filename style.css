@@ -26,7 +26,7 @@
 .h1{
     display: flex;
     font-size: 24px;
-    text-align: start;
+    /*text-align: start;*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     align-items: center;
@@ -38,8 +38,6 @@
 .nav{
     display:flex;
     width: 100%;
-    /*margin: 10px 0px;
-    padding: 0px; */
     background-color: #1f2937;
     list-style: none;
     justify-content: space-evenly;
@@ -54,6 +52,7 @@
     display: flex;
     flex-direction: column;
     background-color:#1f2937;
+    padding: 40px;
     /*padding: 10px 10px;
     align-items: flex-end;
     color: #e5e7eb;
@@ -70,6 +69,7 @@
     font-size: 48px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight:bolder;
+    margin-top: 100px;
     margin-inline-start: 100px;
     padding-inline-start: 50px;
     justify-content: center;
@@ -77,29 +77,29 @@
 }
 .p2, .p3 {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     color: #f9fAf8;
     font-size: 18px;
+    padding: 0px;
+    margin-inline-start: 152px;
+    margin-top: -50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align:justify;
-    justify-content: center space-evenly;
-    align-items: center space-evenly;
+   
+    justify-content:flex-start;
+    align-items:flex-start;
 }    
 .Image_h{
     display: flex;
-    /*flex-direction: column;
-    flex-wrap: wrap;*/
     justify-content: center;
     align-items: center;
     padding: 10px;
-
-    
     margin: 10px 895px;
-    /*padding: 10px 10px;*/
+    margin-top: -140px;
     background-color: grey;
     color: whitesmoke;
     width: 600px;
     height: 215px;
-    margin-bottom: 20px;
     align-content: center;
   
    
@@ -111,4 +111,6 @@
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
