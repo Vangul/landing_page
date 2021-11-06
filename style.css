@@ -18,7 +18,7 @@
 .logo {
     display: flex;
     height: 24px;
-    margin-left: 24px;
+    margin: 0px;
     padding: 1px;
     align-content: space-around;
     justify-items: center;
@@ -38,11 +38,14 @@
     
 }
 .blog{
-    display: none;
+    display: flex;
+    background-color: teal;
    /* background-image: url(../landing_page/images/water.jpg);
     background-size: auto;*/
+   
     
 }
 .footer{
-    display: none;
+    display: flex;
+    background-color: darkblue;
 }
