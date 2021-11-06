@@ -71,6 +71,15 @@
     /*justify-content: flex-start center space-evenly;
     align-items: flex-start center space-evenly;*/
 }    
+.Image_h{
+    display: flex;
+    flex-direction: row;
+    margin: 150px 50px;
+    padding: 80px 100px;
+    background-color: grey;
+    justify-content: flex-end center space-between;
+    align-items: flex-end center space-between;
+}
 .footer{
     display: flex;
     background-color: #1f2937;
