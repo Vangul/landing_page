@@ -1,5 +1,5 @@
 .body{
-    background-color: teal;
+    background-color: rgb(22, 56, 78);
 }
 .a {
     
@@ -45,7 +45,7 @@
     align-items: center;
     color: #e5e7eb;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 4px;
+    margin: 0px;
     padding: auto;
    /* background-image: url(../landing_page/images/water.jpg);
     background-size: auto;*/
