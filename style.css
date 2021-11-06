@@ -19,7 +19,7 @@
 .logo {
     display:flex;
     /*hmargin: 10px 10px;*/
-    padding: 0px 60px;
+    padding-inline-start:150px;
     /*height: 50px;
     flex-direction:column;*/
    
@@ -34,20 +34,22 @@
     text-align: start;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
+   
+   
     
 }
 
 .nav{
     display:flex;
     width: 100%;
-    margin: 10px 0px;
+    /*margin: 10px 0px;
     padding: 0px; 
-    /*background-image: url(../landing_page/images/water.jpg);*/
+    background-image: url(../landing_page/images/water.jpg);*/
     background-color: #1f2937;
     list-style: none;
-    justify-content: right;
-    gap: 80px;
-     text-align:center;
+    justify-content:center;
+    align-items:center;
+    gap: 100px;
     font-size: 24px;
     color: whitesmoke;
    
@@ -56,9 +58,10 @@
 }
 .blog{
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     background-color:#1f2937;
-    /*align-items: flex-end;
+    /*padding: 10px 10px;
+    align-items: flex-end;
     color: #e5e7eb;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;*/
@@ -75,17 +78,19 @@
     font-size: 48px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight:bolder;
-    /*justify-content: flex-start center space-evenly;
-    align-items: flex-start center space-evenly;*/
+    margin-inline-start: 100px;
+    padding-inline-start: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .p2, .p3 {
-   /* display: flex;*/
+    display: flex;
     color: #f9fAf8;
     font-size: 18px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
-    /*justify-content: flex-start center space-evenly;
-    align-items: flex-start center space-evenly;*/
+    justify-content: center space-evenly;
+    align-items: center space-evenly;
 }    
 .Image_h{
     display: flex;
@@ -96,12 +101,16 @@
     padding: 10px;
 
     
-    /*margin: 10px 100px;
-    padding: 10px 10px;*/
+    margin: 10px 895px;
+    /*padding: 10px 10px;*/
     background-color: grey;
     color: whitesmoke;
-    /*width: 500px;*/
+    width: 600px;
     height: 215px;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-content: center;
+  
    
 }    
 .footer{
