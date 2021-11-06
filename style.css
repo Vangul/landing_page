@@ -1,5 +1,5 @@
 .body{
-    background-color: rgb(22, 56, 78);
+    background-color:#3c3d46;
 }
 .a {
     
@@ -41,7 +41,7 @@
 .blog{
     display: flex;
     flex-direction: column;
-    background-color: rgb(27, 33, 58);
+    background-color:#1f2937;
     /*align-items: flex-end;
     color: #e5e7eb;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -73,12 +73,13 @@
 }    
 .Image_h{
     display: flex;
-    flex-direction: row;
-    margin: 150px 50px;
-    padding: 80px 100px;
+    flex-direction:row-reverse;
+    margin: 100px 50px;
+    padding: 100px 50px;
     background-color: grey;
-    justify-content: flex-end center space-between;
-    align-items: flex-end center space-between;
+    color: whitesmoke;
+    /*justify-content: flex-end center space-between;
+    align-items: flex-end center space-between;*/
 }
 .footer{
     display: flex;
