@@ -58,9 +58,7 @@
     color: #e5e7eb;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;*/
-    /*padding: auto;
-    background-image: url(../landing_page/images/water.jpg);
-    background-size: auto;*/    
+    /*padding: auto;*/    
 }
 
 .p1 {
@@ -77,7 +75,7 @@
 }
 .p2, .p3 {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     flex-direction: column;
     color: #f9fAf8;
     font-size: 18px;
@@ -88,14 +86,39 @@
    
     justify-content:flex-start;
     align-items:flex-start;
+}
+.button{
+    display: flex;
+    width: 100%;
+    font-weight: bolder;
+    border-radius: 50%;
+    border-color: whitesmoke;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 5%;
+    margin-inline-start: 152px;
+    margin-top: -80px;
+    text-decoration: none;
+    list-style: none;
 }    
+.button:visited{
+    color:whitesmoke;
+}
+.button:active{
+    position:relative;
+    top: 1px;
+}
 .Image_h{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     margin: 10px 895px;
-    margin-top: -140px;
+    margin-top: -150px;
     background-color: grey;
     color: whitesmoke;
     width: 600px;
@@ -106,10 +129,15 @@
 }    
 .footer{
     display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     color: whitesmoke;
     height: 60px;
+    
+    
     background-color: #1f2937;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
