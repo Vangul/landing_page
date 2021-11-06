@@ -73,14 +73,20 @@
 }    
 .Image_h{
     display: flex;
-    flex-direction:row-reverse;
-    margin: 100px 50px;
-    padding: 100px 50px;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+
+    
+    /*margin: 10px 100px;
+    padding: 10px 10px;*/
     background-color: grey;
     color: whitesmoke;
-    /*justify-content: flex-end center space-between;
-    align-items: flex-end center space-between;*/
-}
+    /*width: 500px;*/
+    height: 215px;
+   
+}    
 .footer{
     display: flex;
     background-color: #1f2937;
