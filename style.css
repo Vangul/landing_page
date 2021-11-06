@@ -4,37 +4,35 @@
 .a {
     
     display: flex;
-    background-image: url(../landing_page/images/logo.png);
+    /*background-image: url(../landing_page/images/logo.png);
     background-repeat: space;
-    background-position: bottom;
+    background-position: bottom;*/
     background-color: transparent;
     color:rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 18px;
     text-decoration: none;
     
-    
 }
-
 .logo {
     display: flex;
-    height: 26px;
+    height: 24px;
     margin-left: 24px;
+    padding: 1px;
     align-content: space-around;
+    justify-items: center;
  
 }
-
-
 
 .nav{
     display:flex;
     width: 100%;
     background-image: url(../landing_page/images/water.jpg);
     list-style: none;
-    justify-content:space-evenly;
-    gap: 8px;
-    align-items: center;
+   justify-content: flex-end;
+    gap: 110px;
+    
    
 
     
