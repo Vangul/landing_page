@@ -99,7 +99,7 @@
     margin-top: -150px;
     background-color: grey;
     color: whitesmoke;
-    width: 600px;
+    width: 40%;
     height: 215px;
     align-content: center;
   
@@ -120,13 +120,13 @@
     background-color: #E5E7EB;
     position: relative;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-weight: lighter;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     color: #1f2937;
     font-size: 36px;
-    padding: 40px;
+    height: 200px;
 }
 
 .footer{
