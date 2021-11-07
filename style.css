@@ -93,7 +93,6 @@
 .Image_h{
     display: flex;
     justify-content: center;
-    position: absolute;
     align-items: center;
     padding: 10px;
     margin: 10px 895px;
