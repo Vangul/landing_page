@@ -42,7 +42,7 @@
     padding: 40px;
 }
 .p1 {
-    /*display: flex;*/
+    display: flex;
     color: #f9fAf8;
     font-size: 48px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,7 +50,7 @@
     margin-top: 100px;
     margin-inline-start: 100px;
     padding-inline-start: 50px;
-    justify-content: center;
+    justify-content:first baseline;
     align-items: center;
 }
 .p2, .p3 {
@@ -93,6 +93,7 @@
 .Image_h{
     display: flex;
     justify-content: center;
+    position: absolute;
     align-items: center;
     padding: 10px;
     margin: 10px 895px;
@@ -129,12 +130,20 @@
 }
 .sign_u{
     display: flex;
+    flex-direction: row;
     width:50%;
     height: 200px;
     background-color: #3882F6;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    flex-direction: column;
+    /*position:relative;
+    margin: 50px;
+    padding: 0px;*/
+    margin-inline-start: 360px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:#E5E7EB;
+    font-size: 36px;
 }
 .button_2{
     display: flex;
