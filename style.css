@@ -9,32 +9,22 @@
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
-    
 }
 .logo {
     display:flex;
-    /*hmargin: 10px 10px;*/
     padding-inline-start:150px;
-    /*height: 50px;
-    flex-direction:column;*/
-   
     align-items:center;
     justify-items:center;
     align-items: center;
- 
 }
 .h1{
     display: flex;
     font-size: 24px;
-    /*text-align: start;*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     align-items: center;
     padding: 10px;
-   
-   
 }
-
 .nav{
     display:flex;
     width: 100%;
@@ -42,25 +32,15 @@
     list-style: none;
     justify-content: space-evenly;
     align-items:center;
-    /*gap: 100px;*/
     font-size: 24px;
     color: whitesmoke;
-   
 }
-
 .blog{
     display: flex;
     flex-direction: column;
     background-color:#1f2937;
     padding: 40px;
-    /*padding: 10px 10px;
-    align-items: flex-end;
-    color: #e5e7eb;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0px;*/
-    /*padding: auto;*/    
 }
-
 .p1 {
     /*display: flex;*/
     color: #f9fAf8;
@@ -75,7 +55,6 @@
 }
 .p2, .p3 {
     display: flex;
-    /*flex-wrap: wrap;*/
     flex-direction: column;
     color: #f9fAf8;
     font-size: 18px;
@@ -103,7 +82,6 @@
     margin-inline-start: 152px;
     margin-top: -80px;
     text-decoration: none;
-    list-style: none;
 }    
 .button:visited{
     color:whitesmoke;
@@ -127,18 +105,36 @@
   
    
 }    
-.footer{
+.Schaukasten {
     display: flex;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    color: whitesmoke;
-    height: 60px;
-    
-    
-    background-color: #1f2937;
-    justify-content: space-evenly;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
     align-items: center;
+    padding: 10px;
+}
+.quotes{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    margin: 100px;
+}
+
+.footer{
+    display:flex;
+    
+    width: 100%;
+    background-color: #1f2937;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size: 24px;
+    color: whitesmoke;
 }
