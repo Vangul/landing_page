@@ -112,10 +112,12 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 80px;
 }
 .quotes{
     display: flex;
+    width: 100%;
+    background-color: #E5E7EB;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -124,7 +126,7 @@
     font-style: italic;
     color: #1f2937;
     font-size: 36px;
-    margin: 100px;
+    padding: 40px;
 }
 
 .footer{
