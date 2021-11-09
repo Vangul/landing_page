@@ -144,25 +144,25 @@
 .sign_u{
     display: flex;
     flex-direction: column;
-    width:70%;
-    height: 200px;
+    width:65%;
+    height: 150px;
     background-color: #3882F6;
     justify-content:center;
     align-items:center;
-   
     color:#E5E7EB;
     
-    margin: 100px 0px 100px;    
-    margin-inline-start: 250px;
+    margin: 90px 0px 90px;    
+    margin-inline-start: 300px;
     
 }
 .p5 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     font-size: 24px;
-    margin-inline-start: -500px;
+    margin-inline-start: -765px;
     text-align: center;
-    
+    justify-content:center;
+    align-items:center;
 }
 .p6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -171,6 +171,8 @@
     margin-top: -28px;
     margin-inline-start: -450px;
     text-align: center;
+    justify-content:center;
+    align-items:center;
 }
 
 .button_2{
@@ -185,7 +187,7 @@
     text-align: center;
     text-decoration: none;
     justify-content: center;
-    margin-inline-start: 350px;
+    margin-inline-start: 400px;
     margin-top: -57px;
     
 }    
