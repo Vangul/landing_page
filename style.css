@@ -156,9 +156,9 @@
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:normal;
-    font-size: 24px;
+    font-size: 18x;
     text-align: center;
-    margin-inline-start: -190px;
+    margin-inline-start: -340px;
     margin-top: -20px; 
 }
 .button_2{
@@ -173,7 +173,7 @@
     align-items: center;
     text-align: center;
     text-decoration: none;
-    margin-inline-start: 500px;
+    margin-inline-start: 420px;
     margin-top: -71px;   
 }    
 .button_2:visited{
